@@ -14,7 +14,7 @@
  $ pip3 install requests
  $ pip3 install json
  $ pip3 install sys
- ``` 
+ ```
 
 
 
@@ -71,7 +71,7 @@ $ main.py 192.168.0.2 base
 ```python
 10 r = s.post('http://'+ip_roton+'/auth/login', data = {'username':'admin', 'password':'admin'}) #авторизация
 ```
-```sh
+```python
 34 r = s.post('http://' + ip_roton + '/auth/login', data={'username': 'admin', 'password': 'admin'})  # авторизация
 
 ```
